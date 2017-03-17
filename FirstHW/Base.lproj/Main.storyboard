@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hGY-7b-pR3">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--行事曆-->
+        <scene sceneID="9Af-yy-2Fh">
+            <objects>
+                <viewController title="行事曆" id="Uh9-1z-bfR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9JL-Dw-FQa"/>
+                        <viewControllerLayoutGuide type="bottom" id="EEu-Ao-Cxs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="keQ-7h-YjY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wzz-Ie-XB7" userLabel="background">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="行事曆" translatesAutoresizingMaskIntoConstraints="NO" id="f3D-dw-zpU">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="500"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="行事曆" id="etC-y3-sd7">
+                        <barButtonItem key="leftBarButtonItem" title="編輯" id="3h5-vg-BOf" colorLabel="IBBuiltInLabel-Orange">
+                            <color key="tintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="W2p-sd-dhi">
+                            <color key="tintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nrt-Ch-tEZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2268.75" y="1194.7183098591549"/>
+        </scene>
+        <!--設定-->
+        <scene sceneID="nxT-zD-1TT">
+            <objects>
+                <viewController title="設定" id="uFK-Gw-STn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Io-mL-Wdk"/>
+                        <viewControllerLayoutGuide type="bottom" id="jd7-iD-tQB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qtk-dt-XN8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MBb-fq-jLO" userLabel="background">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="setting" translatesAutoresizingMaskIntoConstraints="NO" id="kp4-55-4tS">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="設定" id="4Ya-pU-BWv">
+                        <barButtonItem key="leftBarButtonItem" title="編輯" id="WD5-Nr-EdB" colorLabel="IBBuiltInLabel-Orange">
+                            <color key="tintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="yST-14-dHD">
+                            <color key="tintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iwP-7Q-ldH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2270.625" y="1946.8309859154929"/>
+        </scene>
+        <!--朋友-->
+        <scene sceneID="Rk2-5a-X0d">
+            <objects>
+                <viewController title="朋友" id="cqd-M5-S34" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vG0-fm-p7N"/>
+                        <viewControllerLayoutGuide type="bottom" id="bzR-Tz-1Rd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Cz-jn-IXv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lMw-LA-UiD" userLabel="background">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="朋友" translatesAutoresizingMaskIntoConstraints="NO" id="8yL-Fj-PZA">
+                                        <rect key="frame" x="0.0" y="64" width="320" height="512"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="朋友" id="AIe-Tl-3xm">
+                        <barButtonItem key="leftBarButtonItem" title="編輯" id="I3C-aA-A1h" colorLabel="IBBuiltInLabel-Orange">
+                            <color key="tintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Atg-iB-ilt">
+                            <color key="tintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lo0-Rr-fgp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2250" y="438.38028169014086"/>
+        </scene>
+        <!--聊天-->
+        <scene sceneID="l3R-vP-I4F">
+            <objects>
+                <viewController title="聊天" id="cQ9-zT-71T" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bwm-hC-cPH"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Xi-ty-NAS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eqb-yI-1fT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eV3-PL-zFO" userLabel="background">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="聊天" translatesAutoresizingMaskIntoConstraints="NO" id="6Ne-FH-lXg">
+                                        <rect key="frame" x="0.0" y="8" width="320" height="513"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="聊天" id="lH8-me-ebE">
+                        <barButtonItem key="leftBarButtonItem" title="編輯" id="9Ch-HO-dx0" colorLabel="IBBuiltInLabel-Orange">
+                            <color key="tintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="usl-3Q-7qF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2250" y="-232.3943661971831"/>
+        </scene>
+        <!--RING-->
+        <scene sceneID="UMj-0w-hCZ">
+            <objects>
+                <viewController title="RING" id="ght-3v-yk6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DYc-Qf-Ka4"/>
+                        <viewControllerLayoutGuide type="bottom" id="n7k-21-DZ3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HDp-C2-8EU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="72f-8q-PzV" userLabel="ㄈ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RING1" translatesAutoresizingMaskIntoConstraints="NO" id="VEX-21-23M">
+                                        <rect key="frame" x="0.0" y="64" width="320" height="456"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="RING" id="YYu-T8-CU4" colorLabel="IBBuiltInLabel-Red">
+                        <barButtonItem key="leftBarButtonItem" title="編輯" id="FYw-M8-hKu" colorLabel="IBBuiltInLabel-Orange">
+                            <color key="tintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="nRo-dV-OOb">
+                            <color key="tintColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d6C-xV-MUT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2250" y="-923.23943661971828"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="eBL-7q-lBB">
+            <objects>
+                <tabBarController id="hGY-7b-pR3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="iZa-qv-iCh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="d2i-iq-i9D" kind="relationship" relationship="viewControllers" id="J6x-8S-5W7"/>
+                        <segue destination="xQS-Pf-az8" kind="relationship" relationship="viewControllers" id="2Qj-lW-rXh"/>
+                        <segue destination="dWI-5v-Yqy" kind="relationship" relationship="viewControllers" id="npz-ZD-DLf"/>
+                        <segue destination="ZkT-Gy-qFY" kind="relationship" relationship="viewControllers" id="6O4-rC-cnY"/>
+                        <segue destination="8Wh-Z3-iqO" kind="relationship" relationship="viewControllers" id="Kre-OF-aGk"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jOf-6L-GhP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4142" y="-595"/>
+        </scene>
+        <!--RING-->
+        <scene sceneID="PtK-Qg-q7r">
+            <objects>
+                <navigationController title="RING" automaticallyAdjustsScrollViewInsets="NO" id="d2i-iq-i9D" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="RING" image="cala2" id="Pyu-9Z-dbO"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QIx-X9-gSt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="sgb-yy-HjT">
+                        <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="ght-3v-yk6" kind="relationship" relationship="rootViewController" id="8Tb-1x-hOV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xsj-V3-hjb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3188" y="-922.48875562218893"/>
+        </scene>
+        <!--聊天-->
+        <scene sceneID="ppj-w9-i10">
+            <objects>
+                <navigationController title="聊天" automaticallyAdjustsScrollViewInsets="NO" id="xQS-Pf-az8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="聊天" image="talk" id="nuU-tu-ntk"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ib4-9j-8CI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cQ9-zT-71T" kind="relationship" relationship="rootViewController" id="fnx-rw-AN6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ub-Ux-mag" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3188" y="-232"/>
+        </scene>
+        <!--朋友-->
+        <scene sceneID="cqX-nx-xRn">
+            <objects>
+                <navigationController title="朋友" automaticallyAdjustsScrollViewInsets="NO" id="dWI-5v-Yqy" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="朋友" image="friend" id="c9o-9W-v86"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vhS-mE-I7C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cqd-M5-S34" kind="relationship" relationship="rootViewController" id="Dv2-Cp-S1m"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uIk-Vr-uTT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3188" y="438.53073463268368"/>
+        </scene>
+        <!--行事曆-->
+        <scene sceneID="tsC-1U-1i6">
+            <objects>
+                <navigationController title="行事曆" automaticallyAdjustsScrollViewInsets="NO" id="ZkT-Gy-qFY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="行事曆" image="cala2" id="Vw2-Fw-wCx"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Dtj-qe-h0d">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Uh9-1z-bfR" kind="relationship" relationship="rootViewController" id="BNk-JT-O6H"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ffa-XN-yow" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3188" y="1196"/>
+        </scene>
+        <!--設定-->
+        <scene sceneID="Te7-wd-Yxo">
+            <objects>
+                <navigationController title="設定" automaticallyAdjustsScrollViewInsets="NO" id="8Wh-Z3-iqO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="設定" image="set" id="cyG-Zd-6Sf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3LM-Kg-xBt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uFK-Gw-STn" kind="relationship" relationship="rootViewController" id="O9M-bV-Or8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2qw-Bv-Ltc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3189" y="1947"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="RING1" width="139" height="237"/>
+        <image name="cala2" width="60" height="60"/>
+        <image name="friend" width="60" height="60"/>
+        <image name="set" width="60" height="60"/>
+        <image name="setting" width="175" height="311"/>
+        <image name="talk" width="60" height="60"/>
+        <image name="朋友" width="315" height="454"/>
+        <image name="聊天" width="103" height="155"/>
+        <image name="行事曆" width="149" height="182"/>
+    </resources>
+</document>
