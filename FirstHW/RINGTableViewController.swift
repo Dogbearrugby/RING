@@ -175,11 +175,11 @@ class RINGTableViewController: UITableViewController {
             let dist = segue.destination as! UINavigationController
             let addEditController = dist.topViewController as! AlarmAddEditViewController
             if segue.identifier == Id.addSegueIdentifier {
-                addEditController.navigationItem.title = "Add RING"
+                addEditController.navigationItem.title = "Add Ring"
                 addEditController.segueInfo = SegueInfo(curCellIndex: alarmModel.count, isEditMode: false, label: "Ring", mediaLabel: "bell", mediaID: "", repeatWeekdays: [], enabled: false)
             }
             else if segue.identifier == Id.editSegueIdentifier {
-                addEditController.navigationItem.title = "Edit RING"
+                addEditController.navigationItem.title = "Edit Ring"
                 addEditController.segueInfo = sender as! SegueInfo
             }
         }
