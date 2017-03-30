@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AVAudioPlayerDelegate, Al
         window?.tintColor = UIColor.red
         return true
     }
-   
+  
     //receive local notification when app in foreground
     func application(_ application: UIApplication, didReceive notification: UILocalNotification) {
         //show an alert window
@@ -72,7 +72,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AVAudioPlayerDelegate, Al
         window?.rootViewController!.present(storageController, animated: true, completion: nil)
   
     }
-    
+ 
     //snooze notification handler when app in background
     func application(_ application: UIApplication, handleActionWithIdentifier identifier: String?, for notification: UILocalNotification, completionHandler: @escaping () -> Void) {
         if identifier == Id.snoozeIdentifier {
