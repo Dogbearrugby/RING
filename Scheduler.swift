@@ -70,7 +70,7 @@ class Scheduler : AlarmSchedulerDelegate
             }
             return correctedDate
         }
-        //repeat
+            //repeat
         else {
             let daysInWeek = 7
             correctedDate.removeAll(keepingCapacity: true)
@@ -81,7 +81,7 @@ class Scheduler : AlarmSchedulerDelegate
                 if compare(weekday: wd, with: weekday) == .before {
                     wdDate =  (calendar as NSCalendar).date(byAdding: NSCalendar.Unit.day, value: wd+daysInWeek-weekday, to: date, options:.matchStrictly)!
                 }
-                //schedule on today or next week
+                    //schedule on today or next week
                 else if compare(weekday: wd, with: weekday) == .same {
                     //scheduling date is eariler than current date, then schedule on next week
                     if date.compare(now) == ComparisonResult.orderedAscending {
@@ -91,7 +91,7 @@ class Scheduler : AlarmSchedulerDelegate
                         wdDate = date
                     }
                 }
-                //schedule on next days of this week
+                    //schedule on next days of this week
                 else { //after
                     wdDate =  (calendar as NSCalendar).date(byAdding: NSCalendar.Unit.day, value: wd-weekday, to: date, options:.matchStrictly)!
                 }
