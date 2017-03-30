@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D9D5B4B1E6AFDE100EB9354"
-               BuildableName = "FirstHW.app"
-               BlueprintName = "FirstHW"
-               ReferencedContainer = "container:FirstHW.xcodeproj">
+               BuildableName = "RING.app"
+               BlueprintName = "RING"
+               ReferencedContainer = "container:RING.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D9D5B5F1E6AFDE100EB9354"
-               BuildableName = "FirstHWTests.xctest"
-               BlueprintName = "FirstHWTests"
-               ReferencedContainer = "container:FirstHW.xcodeproj">
+               BuildableName = "RINGTests.xctest"
+               BlueprintName = "RINGTests"
+               ReferencedContainer = "container:RING.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D9D5B6A1E6AFDE200EB9354"
-               BuildableName = "FirstHWUITests.xctest"
-               BlueprintName = "FirstHWUITests"
-               ReferencedContainer = "container:FirstHW.xcodeproj">
+               BuildableName = "RINGUITests.xctest"
+               BlueprintName = "RINGUITests"
+               ReferencedContainer = "container:RING.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D9D5B4B1E6AFDE100EB9354"
-            BuildableName = "FirstHW.app"
-            BlueprintName = "FirstHW"
-            ReferencedContainer = "container:FirstHW.xcodeproj">
+            BuildableName = "RING.app"
+            BlueprintName = "RING"
+            ReferencedContainer = "container:RING.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D9D5B4B1E6AFDE100EB9354"
-            BuildableName = "FirstHW.app"
-            BlueprintName = "FirstHW"
-            ReferencedContainer = "container:FirstHW.xcodeproj">
+            BuildableName = "RING.app"
+            BlueprintName = "RING"
+            ReferencedContainer = "container:RING.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D9D5B4B1E6AFDE100EB9354"
-            BuildableName = "FirstHW.app"
-            BlueprintName = "FirstHW"
-            ReferencedContainer = "container:FirstHW.xcodeproj">
+            BuildableName = "RING.app"
+            BlueprintName = "RING"
+            ReferencedContainer = "container:RING.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

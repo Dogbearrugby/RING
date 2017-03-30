@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D9D5B501E6AFDE100EB9354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D5B4F1E6AFDE100EB9354 /* AppDelegate.swift */; };
-		3D9D5B521E6AFDE100EB9354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D5B511E6AFDE100EB9354 /* ViewController.swift */; };
+		3D7285471E8C33720030DA67 /* AlarmAddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72853F1E8C33720030DA67 /* AlarmAddEditViewController.swift */; };
+		3D7285481E8C33720030DA67 /* AlarmApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7285401E8C33720030DA67 /* AlarmApplicationDelegate.swift */; };
+		3D72854A1E8C33720030DA67 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7285421E8C33720030DA67 /* AlarmModel.swift */; };
+		3D72854B1E8C33720030DA67 /* AlarmSchedulerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7285431E8C33720030DA67 /* AlarmSchedulerDelegate.swift */; };
+		3D7285511E8C33AE0030DA67 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72854E1E8C33AE0030DA67 /* Identifier.swift */; };
+		3D7285521E8C33AE0030DA67 /* LabelEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72854F1E8C33AE0030DA67 /* LabelEditViewController.swift */; };
+		3D7285531E8C33AE0030DA67 /* MediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7285501E8C33AE0030DA67 /* MediaViewController.swift */; };
+		3D7285561E8C34280030DA67 /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7285551E8C34280030DA67 /* Scheduler.swift */; };
+		3D72855B1E8C35800030DA67 /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7285591E8C35800030DA67 /* Persistable.swift */; };
+		3D72855C1E8C35800030DA67 /* PropertyReflectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72855A1E8C35800030DA67 /* PropertyReflectable.swift */; };
+		3D72855E1E8C359C0030DA67 /* SegueInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72855D1E8C359C0030DA67 /* SegueInfo.swift */; };
+		3D7285601E8C36090030DA67 /* WeekdaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72855F1E8C36090030DA67 /* WeekdaysViewController.swift */; };
+		3D7285631E8C3FF50030DA67 /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D7285611E8C3FF50030DA67 /* bell.mp3 */; };
+		3D7285641E8C3FF50030DA67 /* tickle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D7285621E8C3FF50030DA67 /* tickle.mp3 */; };
+		3D72856A1E8C45400030DA67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7285691E8C45400030DA67 /* AppDelegate.swift */; };
+		3D72857B1E8CFB0C0030DA67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7285791E8CFB0C0030DA67 /* LaunchScreen.storyboard */; };
+		3D72857D1E8D21390030DA67 /* RINGTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72857C1E8D21390030DA67 /* RINGTableViewController.swift */; };
 		3D9D5B551E6AFDE100EB9354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D5B531E6AFDE100EB9354 /* Main.storyboard */; };
 		3D9D5B571E6AFDE100EB9354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D5B561E6AFDE100EB9354 /* Assets.xcassets */; };
-		3D9D5B5A1E6AFDE100EB9354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D5B581E6AFDE100EB9354 /* LaunchScreen.storyboard */; };
-		3D9D5B651E6AFDE200EB9354 /* FirstHWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D5B641E6AFDE200EB9354 /* FirstHWTests.swift */; };
-		3D9D5B701E6AFDE200EB9354 /* FirstHWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D5B6F1E6AFDE200EB9354 /* FirstHWUITests.swift */; };
+		3D9D5B651E6AFDE200EB9354 /* RINGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D5B641E6AFDE200EB9354 /* RINGTests.swift */; };
+		3D9D5B701E6AFDE200EB9354 /* RINGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D5B6F1E6AFDE200EB9354 /* RINGUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,18 +48,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D9D5B4C1E6AFDE100EB9354 /* FirstHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D9D5B4F1E6AFDE100EB9354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D9D5B511E6AFDE100EB9354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D72853F1E8C33720030DA67 /* AlarmAddEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmAddEditViewController.swift; sourceTree = SOURCE_ROOT; };
+		3D7285401E8C33720030DA67 /* AlarmApplicationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmApplicationDelegate.swift; sourceTree = SOURCE_ROOT; };
+		3D7285421E8C33720030DA67 /* AlarmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = SOURCE_ROOT; };
+		3D7285431E8C33720030DA67 /* AlarmSchedulerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmSchedulerDelegate.swift; sourceTree = SOURCE_ROOT; };
+		3D72854E1E8C33AE0030DA67 /* Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifier.swift; sourceTree = SOURCE_ROOT; };
+		3D72854F1E8C33AE0030DA67 /* LabelEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelEditViewController.swift; sourceTree = SOURCE_ROOT; };
+		3D7285501E8C33AE0030DA67 /* MediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaViewController.swift; sourceTree = SOURCE_ROOT; };
+		3D7285551E8C34280030DA67 /* Scheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = SOURCE_ROOT; };
+		3D7285591E8C35800030DA67 /* Persistable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = SOURCE_ROOT; };
+		3D72855A1E8C35800030DA67 /* PropertyReflectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyReflectable.swift; sourceTree = SOURCE_ROOT; };
+		3D72855D1E8C359C0030DA67 /* SegueInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueInfo.swift; sourceTree = SOURCE_ROOT; };
+		3D72855F1E8C36090030DA67 /* WeekdaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaysViewController.swift; sourceTree = SOURCE_ROOT; };
+		3D7285611E8C3FF50030DA67 /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bell.mp3; sourceTree = SOURCE_ROOT; };
+		3D7285621E8C3FF50030DA67 /* tickle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tickle.mp3; sourceTree = SOURCE_ROOT; };
+		3D7285691E8C45400030DA67 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		3D72857A1E8CFB0C0030DA67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D72857C1E8D21390030DA67 /* RINGTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RINGTableViewController.swift; sourceTree = "<group>"; };
+		3D9D5B4C1E6AFDE100EB9354 /* RING.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RING.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9D5B541E6AFDE100EB9354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D9D5B561E6AFDE100EB9354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3D9D5B591E6AFDE100EB9354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D9D5B5B1E6AFDE100EB9354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D9D5B601E6AFDE100EB9354 /* FirstHWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstHWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D9D5B641E6AFDE200EB9354 /* FirstHWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstHWTests.swift; sourceTree = "<group>"; };
+		3D9D5B601E6AFDE100EB9354 /* RINGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RINGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9D5B641E6AFDE200EB9354 /* RINGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RINGTests.swift; sourceTree = "<group>"; };
 		3D9D5B661E6AFDE200EB9354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D9D5B6B1E6AFDE200EB9354 /* FirstHWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstHWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D9D5B6F1E6AFDE200EB9354 /* FirstHWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstHWUITests.swift; sourceTree = "<group>"; };
+		3D9D5B6B1E6AFDE200EB9354 /* RINGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RINGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9D5B6F1E6AFDE200EB9354 /* RINGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RINGUITests.swift; sourceTree = "<group>"; };
 		3D9D5B711E6AFDE200EB9354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,12 +102,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D7285321E8C22A90030DA67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D72857C1E8D21390030DA67 /* RINGTableViewController.swift */,
+				3D72853F1E8C33720030DA67 /* AlarmAddEditViewController.swift */,
+				3D7285501E8C33AE0030DA67 /* MediaViewController.swift */,
+				3D72855F1E8C36090030DA67 /* WeekdaysViewController.swift */,
+				3D72854F1E8C33AE0030DA67 /* LabelEditViewController.swift */,
+			);
+			name = Controller;
+			path = FirstHW;
+			sourceTree = "<group>";
+		};
+		3D7285541E8C33F50030DA67 /* Ａpp */ = {
+			isa = PBXGroup;
+			children = (
+				3D7285551E8C34280030DA67 /* Scheduler.swift */,
+				3D72854E1E8C33AE0030DA67 /* Identifier.swift */,
+				3D7285691E8C45400030DA67 /* AppDelegate.swift */,
+			);
+			name = "Ａpp";
+			path = FirstHW;
+			sourceTree = "<group>";
+		};
+		3D7285571E8C34740030DA67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D7285421E8C33720030DA67 /* AlarmModel.swift */,
+				3D72855D1E8C359C0030DA67 /* SegueInfo.swift */,
+			);
+			name = Model;
+			path = FirstHW;
+			sourceTree = "<group>";
+		};
+		3D7285581E8C34E50030DA67 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3D7285401E8C33720030DA67 /* AlarmApplicationDelegate.swift */,
+				3D7285431E8C33720030DA67 /* AlarmSchedulerDelegate.swift */,
+				3D7285591E8C35800030DA67 /* Persistable.swift */,
+				3D72855A1E8C35800030DA67 /* PropertyReflectable.swift */,
+			);
+			name = Protocol;
+			path = FirstHW;
+			sourceTree = "<group>";
+		};
 		3D9D5B431E6AFDE100EB9354 = {
 			isa = PBXGroup;
 			children = (
+				3D7285541E8C33F50030DA67 /* Ａpp */,
+				3D7285321E8C22A90030DA67 /* Controller */,
+				3D7285571E8C34740030DA67 /* Model */,
+				3D7285581E8C34E50030DA67 /* Protocol */,
 				3D9D5B4E1E6AFDE100EB9354 /* RING */,
-				3D9D5B631E6AFDE200EB9354 /* FirstHWTests */,
-				3D9D5B6E1E6AFDE200EB9354 /* FirstHWUITests */,
+				3D9D5B631E6AFDE200EB9354 /* RINGTests */,
+				3D9D5B6E1E6AFDE200EB9354 /* RINGUITests */,
 				3D9D5B4D1E6AFDE100EB9354 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,9 +165,9 @@
 		3D9D5B4D1E6AFDE100EB9354 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D9D5B4C1E6AFDE100EB9354 /* FirstHW.app */,
-				3D9D5B601E6AFDE100EB9354 /* FirstHWTests.xctest */,
-				3D9D5B6B1E6AFDE200EB9354 /* FirstHWUITests.xctest */,
+				3D9D5B4C1E6AFDE100EB9354 /* RING.app */,
+				3D9D5B601E6AFDE100EB9354 /* RINGTests.xctest */,
+				3D9D5B6B1E6AFDE200EB9354 /* RINGUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,41 +175,43 @@
 		3D9D5B4E1E6AFDE100EB9354 /* RING */ = {
 			isa = PBXGroup;
 			children = (
-				3D9D5B4F1E6AFDE100EB9354 /* AppDelegate.swift */,
-				3D9D5B511E6AFDE100EB9354 /* ViewController.swift */,
 				3D9D5B531E6AFDE100EB9354 /* Main.storyboard */,
+				3D7285791E8CFB0C0030DA67 /* LaunchScreen.storyboard */,
 				3D9D5B561E6AFDE100EB9354 /* Assets.xcassets */,
-				3D9D5B581E6AFDE100EB9354 /* LaunchScreen.storyboard */,
 				3D9D5B5B1E6AFDE100EB9354 /* Info.plist */,
+				3D7285611E8C3FF50030DA67 /* bell.mp3 */,
+				3D7285621E8C3FF50030DA67 /* tickle.mp3 */,
 			);
 			name = RING;
 			path = FirstHW;
 			sourceTree = "<group>";
 		};
-		3D9D5B631E6AFDE200EB9354 /* FirstHWTests */ = {
+		3D9D5B631E6AFDE200EB9354 /* RINGTests */ = {
 			isa = PBXGroup;
 			children = (
-				3D9D5B641E6AFDE200EB9354 /* FirstHWTests.swift */,
+				3D9D5B641E6AFDE200EB9354 /* RINGTests.swift */,
 				3D9D5B661E6AFDE200EB9354 /* Info.plist */,
 			);
+			name = RINGTests;
 			path = FirstHWTests;
 			sourceTree = "<group>";
 		};
-		3D9D5B6E1E6AFDE200EB9354 /* FirstHWUITests */ = {
+		3D9D5B6E1E6AFDE200EB9354 /* RINGUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3D9D5B6F1E6AFDE200EB9354 /* FirstHWUITests.swift */,
+				3D9D5B6F1E6AFDE200EB9354 /* RINGUITests.swift */,
 				3D9D5B711E6AFDE200EB9354 /* Info.plist */,
 			);
+			name = RINGUITests;
 			path = FirstHWUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D9D5B4B1E6AFDE100EB9354 /* FirstHW */ = {
+		3D9D5B4B1E6AFDE100EB9354 /* RING */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D9D5B741E6AFDE200EB9354 /* Build configuration list for PBXNativeTarget "FirstHW" */;
+			buildConfigurationList = 3D9D5B741E6AFDE200EB9354 /* Build configuration list for PBXNativeTarget "RING" */;
 			buildPhases = (
 				3D9D5B481E6AFDE100EB9354 /* Sources */,
 				3D9D5B491E6AFDE100EB9354 /* Frameworks */,
@@ -141,14 +221,14 @@
 			);
 			dependencies = (
 			);
-			name = FirstHW;
+			name = RING;
 			productName = FirstHW;
-			productReference = 3D9D5B4C1E6AFDE100EB9354 /* FirstHW.app */;
+			productReference = 3D9D5B4C1E6AFDE100EB9354 /* RING.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3D9D5B5F1E6AFDE100EB9354 /* FirstHWTests */ = {
+		3D9D5B5F1E6AFDE100EB9354 /* RINGTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D9D5B771E6AFDE200EB9354 /* Build configuration list for PBXNativeTarget "FirstHWTests" */;
+			buildConfigurationList = 3D9D5B771E6AFDE200EB9354 /* Build configuration list for PBXNativeTarget "RINGTests" */;
 			buildPhases = (
 				3D9D5B5C1E6AFDE100EB9354 /* Sources */,
 				3D9D5B5D1E6AFDE100EB9354 /* Frameworks */,
@@ -159,14 +239,14 @@
 			dependencies = (
 				3D9D5B621E6AFDE100EB9354 /* PBXTargetDependency */,
 			);
-			name = FirstHWTests;
+			name = RINGTests;
 			productName = FirstHWTests;
-			productReference = 3D9D5B601E6AFDE100EB9354 /* FirstHWTests.xctest */;
+			productReference = 3D9D5B601E6AFDE100EB9354 /* RINGTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3D9D5B6A1E6AFDE200EB9354 /* FirstHWUITests */ = {
+		3D9D5B6A1E6AFDE200EB9354 /* RINGUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D9D5B7A1E6AFDE200EB9354 /* Build configuration list for PBXNativeTarget "FirstHWUITests" */;
+			buildConfigurationList = 3D9D5B7A1E6AFDE200EB9354 /* Build configuration list for PBXNativeTarget "RINGUITests" */;
 			buildPhases = (
 				3D9D5B671E6AFDE200EB9354 /* Sources */,
 				3D9D5B681E6AFDE200EB9354 /* Frameworks */,
@@ -177,9 +257,9 @@
 			dependencies = (
 				3D9D5B6D1E6AFDE200EB9354 /* PBXTargetDependency */,
 			);
-			name = FirstHWUITests;
+			name = RINGUITests;
 			productName = FirstHWUITests;
-			productReference = 3D9D5B6B1E6AFDE200EB9354 /* FirstHWUITests.xctest */;
+			productReference = 3D9D5B6B1E6AFDE200EB9354 /* RINGUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +288,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3D9D5B471E6AFDE100EB9354 /* Build configuration list for PBXProject "FirstHW" */;
+			buildConfigurationList = 3D9D5B471E6AFDE100EB9354 /* Build configuration list for PBXProject "RING" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -221,9 +301,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D9D5B4B1E6AFDE100EB9354 /* FirstHW */,
-				3D9D5B5F1E6AFDE100EB9354 /* FirstHWTests */,
-				3D9D5B6A1E6AFDE200EB9354 /* FirstHWUITests */,
+				3D9D5B4B1E6AFDE100EB9354 /* RING */,
+				3D9D5B5F1E6AFDE100EB9354 /* RINGTests */,
+				3D9D5B6A1E6AFDE200EB9354 /* RINGUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,9 +313,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D9D5B5A1E6AFDE100EB9354 /* LaunchScreen.storyboard in Resources */,
+				3D7285631E8C3FF50030DA67 /* bell.mp3 in Resources */,
 				3D9D5B571E6AFDE100EB9354 /* Assets.xcassets in Resources */,
+				3D72857B1E8CFB0C0030DA67 /* LaunchScreen.storyboard in Resources */,
 				3D9D5B551E6AFDE100EB9354 /* Main.storyboard in Resources */,
+				3D7285641E8C3FF50030DA67 /* tickle.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +342,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D9D5B521E6AFDE100EB9354 /* ViewController.swift in Sources */,
-				3D9D5B501E6AFDE100EB9354 /* AppDelegate.swift in Sources */,
+				3D7285531E8C33AE0030DA67 /* MediaViewController.swift in Sources */,
+				3D72855C1E8C35800030DA67 /* PropertyReflectable.swift in Sources */,
+				3D7285561E8C34280030DA67 /* Scheduler.swift in Sources */,
+				3D7285601E8C36090030DA67 /* WeekdaysViewController.swift in Sources */,
+				3D72856A1E8C45400030DA67 /* AppDelegate.swift in Sources */,
+				3D72854B1E8C33720030DA67 /* AlarmSchedulerDelegate.swift in Sources */,
+				3D72854A1E8C33720030DA67 /* AlarmModel.swift in Sources */,
+				3D72857D1E8D21390030DA67 /* RINGTableViewController.swift in Sources */,
+				3D72855E1E8C359C0030DA67 /* SegueInfo.swift in Sources */,
+				3D7285521E8C33AE0030DA67 /* LabelEditViewController.swift in Sources */,
+				3D72855B1E8C35800030DA67 /* Persistable.swift in Sources */,
+				3D7285481E8C33720030DA67 /* AlarmApplicationDelegate.swift in Sources */,
+				3D7285471E8C33720030DA67 /* AlarmAddEditViewController.swift in Sources */,
+				3D7285511E8C33AE0030DA67 /* Identifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D9D5B651E6AFDE200EB9354 /* FirstHWTests.swift in Sources */,
+				3D9D5B651E6AFDE200EB9354 /* RINGTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D9D5B701E6AFDE200EB9354 /* FirstHWUITests.swift in Sources */,
+				3D9D5B701E6AFDE200EB9354 /* RINGUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,31 +380,31 @@
 /* Begin PBXTargetDependency section */
 		3D9D5B621E6AFDE100EB9354 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D9D5B4B1E6AFDE100EB9354 /* FirstHW */;
+			target = 3D9D5B4B1E6AFDE100EB9354 /* RING */;
 			targetProxy = 3D9D5B611E6AFDE100EB9354 /* PBXContainerItemProxy */;
 		};
 		3D9D5B6D1E6AFDE200EB9354 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D9D5B4B1E6AFDE100EB9354 /* FirstHW */;
+			target = 3D9D5B4B1E6AFDE100EB9354 /* RING */;
 			targetProxy = 3D9D5B6C1E6AFDE200EB9354 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		3D7285791E8CFB0C0030DA67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D72857A1E8CFB0C0030DA67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		3D9D5B531E6AFDE100EB9354 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3D9D5B541E6AFDE100EB9354 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3D9D5B581E6AFDE100EB9354 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D9D5B591E6AFDE100EB9354 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -441,7 +535,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dogbearrugby.FirstHWTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstHW.app/FirstHW";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RING.app/RING";
 			};
 			name = Debug;
 		};
@@ -455,7 +549,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dogbearrugby.FirstHWTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstHW.app/FirstHW";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RING.app/RING";
 			};
 			name = Release;
 		};
@@ -488,7 +582,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D9D5B471E6AFDE100EB9354 /* Build configuration list for PBXProject "FirstHW" */ = {
+		3D9D5B471E6AFDE100EB9354 /* Build configuration list for PBXProject "RING" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D9D5B721E6AFDE200EB9354 /* Debug */,
@@ -497,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D9D5B741E6AFDE200EB9354 /* Build configuration list for PBXNativeTarget "FirstHW" */ = {
+		3D9D5B741E6AFDE200EB9354 /* Build configuration list for PBXNativeTarget "RING" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D9D5B751E6AFDE200EB9354 /* Debug */,
@@ -506,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D9D5B771E6AFDE200EB9354 /* Build configuration list for PBXNativeTarget "FirstHWTests" */ = {
+		3D9D5B771E6AFDE200EB9354 /* Build configuration list for PBXNativeTarget "RINGTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D9D5B781E6AFDE200EB9354 /* Debug */,
@@ -515,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D9D5B7A1E6AFDE200EB9354 /* Build configuration list for PBXNativeTarget "FirstHWUITests" */ = {
+		3D9D5B7A1E6AFDE200EB9354 /* Build configuration list for PBXNativeTarget "RINGUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D9D5B7B1E6AFDE200EB9354 /* Debug */,
